@@ -244,6 +244,7 @@ function gameOver() {
   this.player.setTexture('bunny-lose');
   gameOverText.setVisible(true);
   restartText.setVisible(true);
+  this.gameMusic.stop();
 }
 
 function updateHighestScore() {
